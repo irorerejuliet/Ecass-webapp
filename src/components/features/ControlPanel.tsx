@@ -2,7 +2,7 @@ import { VolumeX, X } from "lucide-react";
 
 const ControlPanel = () => {
   return (
-    <div className="flex gap-4 w-full max-w-3xl text-black font-bold">
+    <div className="flex lg:flex-col flex-row gap-4 w-full max-w-3xl text-black font-bold">
       <button className="flex-1 border-4 border-black py-4 bg-white shadow-md flex items-center justify-center">
         <X color="red" size={24} />
         CANCEL
