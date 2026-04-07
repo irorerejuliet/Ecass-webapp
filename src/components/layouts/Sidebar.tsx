@@ -9,7 +9,7 @@ const Sidebar = () => {
       { label: "SETTINGS", icon: Settings },
     ];
   return (
-    <aside className="w-64 bg-gray-100 text-black border-r flex flex-col justify-between pt-20">
+    <aside className="w-64 bg-gray-100 text-black border-r md:flex flex-col justify-between pt-20  hidden">
       <div>
         <div className="p-6 border-b">
           <p className="text-yellow-700 font-bold">SYSTEM ARMED</p>
