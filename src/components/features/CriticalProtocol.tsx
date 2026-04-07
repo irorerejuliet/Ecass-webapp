@@ -6,7 +6,7 @@ const CriticalProtocol = () => {
         CRITICAL PROTOCOL
       </div>
 
-      <div className="bg-gray-100 p-4 text-sm">
+      <div className="bg-gray-100 p-4 text-sm text-black font-semibold">
         ACTIVATE THE PANIC BUTTON ONLY IN IMMEDIATE THREAT. COORDINATES AND
         AUDIO WILL BE UPLOADED INSTANTLY TO CENTRAL COMMAND.
         <div className="mt-4">
