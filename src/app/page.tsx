@@ -1,9 +1,9 @@
-import ControlPanel from "@/components/ControlPanel";
-import CriticalProtocol from "@/components/CriticalProtocol";
+import ControlPanel from "@/components/features/ControlPanel";
+import CriticalProtocol from "@/components/features/CriticalProtocol";
+import PanicButton from "@/components/features/PanicButton";
+import StatusBanner from "@/components/features/StatusBanner";
 import Navbar from "@/components/layouts/Navbar";
 import Sidebar from "@/components/layouts/Sidebar";
-import PanicButton from "@/components/PanicButton";
-import StatusBanner from "@/components/StatusBanner";
 
 
 const page = () => {
