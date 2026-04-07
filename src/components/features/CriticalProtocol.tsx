@@ -10,7 +10,7 @@ const CriticalProtocol = () => {
         ACTIVATE THE PANIC BUTTON ONLY IN IMMEDIATE THREAT. COORDINATES AND
         AUDIO WILL BE UPLOADED INSTANTLY TO CENTRAL COMMAND.
         <div className="mt-4">
-          <div className="h-2 bg-yellow-400 w-full"></div>
+          <div className="h-2 bg-yellow-400 w-full border-2"></div>
           <p className="text-xs text-right mt-1">SIGNAL: 100%</p>
         </div>
       </div>

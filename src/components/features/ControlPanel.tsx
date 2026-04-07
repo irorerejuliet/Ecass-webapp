@@ -14,7 +14,10 @@ const ControlPanel = () => {
           <span>SILENT TRIGGER</span>
         </button>
 
-        <span className="w-6 h-6 bg-yellow-400 border border-black"></span>
+        <div className="flex border-2">
+          <span className="w-6 h-6 bg-yellow-400 border-2 border-black"></span>
+          <span className="w-6 h-6 bg-black border-2 border-black"></span>
+        </div>
       </div>
     </div>
   );
