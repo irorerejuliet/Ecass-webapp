@@ -20,14 +20,14 @@ const TransparencyLedger = () => {
             </p>
           </div>
 
-          {/* CTA */}
+        
           <button className="bg-primary hover:bg-yellow-500 transition px-6 py-3 font-bold text-black shadow-[4px_4px_0px_#000] border-2 border-black flex items-center gap-2">
             DONATE NOW
             <span>💳</span>
           </button>
         </div>
 
-        {/* Divider */}
+       
         <div className="border-t-2 border-gray-300 my-8" />
 
         {/* Cards */}
