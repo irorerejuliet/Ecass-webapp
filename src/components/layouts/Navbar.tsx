@@ -1,19 +1,26 @@
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center px-6 py-4 border-b bg-white">
-      <h1 className="font-bold tracking-wide text-black">ECASS</h1>
+    <header className=" bg-white">
+      <div className="flex justify-between items-center px-6 py-4 border-b">
+        <Link href="/" className="font-bold tracking-wide text-black">
+          ECASS
+        </Link>
 
-      <nav className="flex gap-6 text-sm text-[#ACAAAE] font-semibold">
-        <span className="text-yellow-600 font-semibold">DASHBOARD</span>
-        <span>ALERTS</span>
-        <span>REPORTS</span>
-        <span>SOS</span>
-      </nav>
+        <nav className="flex gap-6 text-sm text-[#ACAAAE] font-semibold">
+          <Link href="/dashboard" className="text-yellow-600 font-semibold">
+            DASHBOARD
+          </Link>
+          <Link href="/alerts">ALERTS</Link>
+          <Link href="report">REPORTS</Link>
+          <Link href="/sos">SOS</Link>
+        </nav>
 
-      <div className="flex gap-4">
-        <span>🔔</span>
-        <span>👤</span>
+        <div className="flex gap-4">
+          <Link href="">🔔</Link>
+          <Link href="">👤</Link>
+        </div>
       </div>
     </header>
   );
