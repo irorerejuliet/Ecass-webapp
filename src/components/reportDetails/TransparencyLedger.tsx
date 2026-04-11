@@ -1,5 +1,5 @@
 
-import { ShieldCheck, ReceiptText, Wallet } from "lucide-react";
+
 import { ledgerExpensesData } from "../constant/ledgerExpensesData";
 import Image from "next/image";
 
@@ -49,16 +49,6 @@ const TransparencyLedger = () => {
               <h2 className="text-4xl font-bold mt-1">{item.value}</h2>
             </div>
           ))}
-        </div>
-
-        {/* Transactions Section */}
-        <div className="mt-10">
-          <div className="flex items-center gap-4">
-            <h3 className="text-lg font-bold text-gray-800">
-              RECENT TRANSACTIONS
-            </h3>
-            <div className="flex-1 border-t-4 border-black" />
-          </div>
         </div>
       </div>
     </section>
