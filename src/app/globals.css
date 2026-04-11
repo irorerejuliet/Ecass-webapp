@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .wrapper {
-  @apply mx-auto lg:w-[1200px] w-full p-2;
+  @apply mx-auto lg:w-[1440px] w-full p-2;
 }
 
 
