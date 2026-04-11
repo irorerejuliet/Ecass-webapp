@@ -1,7 +1,7 @@
 
 const CriticalProtocol = () => {
   return (
-    <div className="w-full max-w-3xl border-4 border-black shadow-md">
+    <div className="border-4 shadow-md">
       <div className="bg-red-700 text-white text-xs px-3 py-1 font-bold">
         CRITICAL PROTOCOL
       </div>

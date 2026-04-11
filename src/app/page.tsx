@@ -1,3 +1,4 @@
+"use client"
 import ControlPanel from "@/components/features/ControlPanel";
 import CriticalProtocol from "@/components/features/CriticalProtocol";
 import PanicButton from "@/components/features/PanicButton";
@@ -12,11 +13,11 @@ const page = () => {
       <Sidebar />
 
       <div className="flex-1 flex flex-col">
-        <Navbar/>
+        <Navbar />
 
-        <main className="flex flex-col items-center justify-start gap-6 p-6">
-          <StatusBanner/>
-          <PanicButton/>
+        <main className="flex flex-col items-center gap-6 py-6  px-6 lg:px-8 max-w-5xl w-full mx-auto">
+          <StatusBanner />
+          <PanicButton />
           <ControlPanel />
           <CriticalProtocol />
         </main>
