@@ -10,11 +10,11 @@ const TransparencyLedger = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-              TRANSPARENCY <br /> LEDGER
+            <h1 className="text-7xl md:text-5xl font-bold w-[491px] leading-tight">
+              TRANSPARENCY  LEDGER
             </h1>
 
-            <p className="mt-4 text-gray-700 max-w-xl border-l-4 border-yellow-500 pl-4">
+            <p className="mt-4 text-xl font-bold max-w-xl border-l-4 border-yellow-500 pl-4">
               Real-time financial accountability for the Ekpoma Sector 4
               security operations. Every Naira tracked. Every patrol logged.
             </p>
