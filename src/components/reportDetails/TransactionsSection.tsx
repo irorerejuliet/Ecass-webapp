@@ -36,8 +36,8 @@ const TransactionsSection = () => {
                     <span
                       className={`text-xs font-bold px-2 py-1 border border-black ${
                         tx.type === "donation"
-                          ? "bg-yellow-400"
-                          : "bg-red-500 text-white"
+                          ? "bg-primary"
+                          : "bg-secondary text-white"
                       }`}
                     >
                       {tx.type === "donation" ? "DONATION" : "EXPENSE"}
@@ -46,7 +46,7 @@ const TransactionsSection = () => {
 
                   <td
                     className={`p-4 font-bold ${
-                      tx.type === "expense" ? "text-red-600" : ""
+                      tx.type === "expense" ? "text-secondary" : ""
                     }`}
                   >
                     {tx.amount}
